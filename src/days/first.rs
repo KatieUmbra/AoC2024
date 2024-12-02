@@ -4,7 +4,7 @@ use std::{
 };
 
 pub fn solution() -> Result<()> {
-    let mut file = File::open("inputs/11.txt")?;
+    let mut file = File::open("inputs/1.txt")?;
     let mut contents = String::new();
     let _ = file.read_to_string(&mut contents);
     let lines = contents.lines();

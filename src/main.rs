@@ -1,4 +1,4 @@
-use days::first::solution;
+use days::second::solution;
 
 pub mod days;
 
